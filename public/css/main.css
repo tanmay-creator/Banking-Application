@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/bgmain.jpg") ;
+    height: 100vh;
+    --webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.container{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 14% 30%;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 47px;
+
+}
+.container a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.container a:hover{
+    background:black;
+    color:blue;
+}
+
+
